@@ -392,7 +392,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (message) {
         msg += `💌 *Personal Message / Wishes:* "${message}"\n\n`;
       }
-      msg += `_Heartfelt congratulations to the Bhanch family and newlyweds!_`;
+      msg += `_Heartfelt congratulations to the Baunch family and newlyweds!_`;
 
       const whatsappURL = `https://wa.me/${hostPhone}?text=${encodeURIComponent(msg)}`;
       window.open(whatsappURL, "_blank");
