@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+inspect_ref.py
+inspect_ref_details.py
+reference.html
+ref_bg1.jpeg
+ref_bg2.jpeg
+ref_bg3.jpeg
