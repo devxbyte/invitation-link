@@ -20,7 +20,7 @@
     rel="stylesheet">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2.4">
 
   <!-- GSAP & ScrollTrigger -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -34,7 +34,7 @@
   <div class="royal-bg-veil" aria-hidden="true"></div>
 
   <!-- Ambient Audio Track -->
-  <audio id="ambient-audio-track" src="music.mp3" loop preload="auto">
+  <audio id="ambient-audio-track" src="music.mp3" loop preload="none">
     <source src="music.mp3" type="audio/mpeg">
     <source src="music.mp3" type="audio/mp3">
   </audio>
@@ -52,12 +52,9 @@
        ======================================================================== -->
   <header class="hero-gate" id="hero">
 
-    <!-- Monogram Emblem (Image 1 Style) -->
+    <!-- Monogram Emblem -->
     <div class="hero-monogram-top">
-      <div class="monogram-cipher">
-        <span class="mono-i">I &amp;</span>
-        <span class="mono-t">T</span>
-      </div>
+      <span>I &amp; T</span>
     </div>
 
     <p class="hero-bhanch-tag">The Baunch Family Presents</p>
@@ -1171,7 +1168,7 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="script.js"></script>
+  <script src="script.js?v=2.4"></script>
 </body>
 
 </html>
