@@ -1545,3 +1545,27 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.footer-credits {
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.credits-link {
+  color: var(--gold-light);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(247, 230, 181, 0.4);
+  padding-bottom: 2px;
+  transition: all 0.3s ease;
+}
+
+.credits-link:hover {
+  color: #ffffff;
+  border-bottom-color: var(--gold-primary);
+  text-shadow: 0 0 10px rgba(197, 155, 72, 0.5);
+}
